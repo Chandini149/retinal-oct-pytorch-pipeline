@@ -2,9 +2,11 @@
 
 Automated, config-driven image classification pipeline for retinal OCT
 (optical coherence tomography) scans, classifying four disease categories:
-**CNV, DME, DRUSEN, NORMAL**. Built as a PyTorch + Bash rework of an earlier
-TensorFlow prototype, focused on reproducibility and automation rather than
-one-off notebook execution.
+**CNV, DME, DRUSEN, NORMAL**. Trained on a 5.7K-image subset of the
+Kermany et al. OCT2017 dataset (full dataset is 88K+ images) as a proof
+of concept for the pipeline architecture. Built as a PyTorch + Bash rework
+of an earlier TensorFlow prototype trained on the full dataset, focused
+on reproducibility and automation over one-off notebook execution.
 
 ## Results
 
